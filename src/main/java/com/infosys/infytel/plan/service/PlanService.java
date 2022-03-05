@@ -29,6 +29,8 @@ public class PlanService {
 			PlanDTO planDTO = PlanDTO.valueOf(plan);
 			planDTOs.add(planDTO);
 		}
+		
+		System.out.println("Plan Details");// Modifed for test
 
 		logger.info("Plan details : {}", planDTOs);
 		return planDTOs;
